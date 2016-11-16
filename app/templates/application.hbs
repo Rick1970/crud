@@ -1,0 +1,13 @@
+<div class="ui segment">
+  <div class="ui menu">
+    <div class="header item">
+      {{#link-to "index"}}CRUD Tool{{/link-to}}
+    </div>
+
+    {{#link-to "addresses" class="item"}}Addresses{{/link-to}}
+    {{#link-to 'addresses.new'}}
+  <button class="ui primary button">New address</button>
+{{/link-to}}
+  </div>
+</div>
+{{outlet}}
